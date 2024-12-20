@@ -1,0 +1,11 @@
+class emp:
+    def __init__(self,first,last,sal):
+        self.first=first
+        self.last=last
+        self.salry=sal
+        self.mail=f"{first}.{last}@gmail.com"
+emp1=emp("uhu","uhu",5000)
+print(emp1.mail)
+print(emp1.salry)
+print(type(emp1))
+#class in python
