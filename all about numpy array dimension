@@ -1,0 +1,15 @@
+import numpy as nm
+listt=[1,2,3,4,5]
+#list to numpy array
+ll=nm.array(listt)
+#we can change the numpy array data type
+ll=nm.array(ll,dtype='float')
+print(ll.dtype)
+ab=[[1,2,3,4,5],[9,8,7,6,5]]
+ab=nm.array(ab)
+print(ab.shape)
+#dimension 
+print(ab.ndim)
+#size
+print(ab.size)
+
