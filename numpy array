@@ -1,0 +1,11 @@
+import numpy as nm
+a=[1,2,3,'y',5]
+print(a)
+ap=nm.array(a)
+print(type(ap))
+#ap=ap+1
+print(ap)
+ap=nm.array(ap,dtype='object')
+print(ap)
+ap=nm.array(ap,dtype='object')
+print(ap)
